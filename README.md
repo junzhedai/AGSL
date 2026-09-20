@@ -150,6 +150,7 @@ A：Vue 3 scoped CSS 用 `:deep()`，是 Vue 编译器语法，lightningcss 不�
 - 后端热更新：要重启（`stop-agsl.bat` + `start-agsl.bat`）
 - 类型检查：`npm run build` 会跑 `vue-tsc --build`，比纯 `vite build` 严格
 - 浏览器开发者工具：右上角有 Vue DevTools 入口（`Alt+Shift+D`）
+- 本人算个小白，这个应用主要是AI辅助开发的
 
 ---
 
