@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-09-18T11:30:00.000Z",
+  "games": [
+    { "name": "碧蓝航线", "script_id": "alas", "use_emulator": true,  "run_mode": "foreground" },
+    { "name": "明日方舟", "script_id": "MAA",  "use_emulator": true,  "run_mode": "foreground" }
+  ],
+  "configs": [
+    {
+      "id": "cfg_xxx",
+      "name": "AGSL",
+      "createdAt": "2026-09-18T11:30:00.000Z",
+      "updatedAt": "2026-09-18T11:30:00.000Z",
+      "settings": {
+        "defaultLaunchTime": 390,
+        "defaultDuration": 120
+      },
+      "scripts": []
+    }
+  ],
+  "activeConfigId": "cfg_xxx"
+}

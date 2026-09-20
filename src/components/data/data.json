@@ -1,0 +1,35 @@
+{
+    "scripts": [
+     { "script_id": "alas",
+     "name": "碧蓝航线",
+     "launch_command": "python -m alas",
+     "default": {
+     "launch_time": "06:30",
+     "duration": "01:00",
+     "adb": "emulator-5555",
+     "run_mode": "background",
+     "active": true}
+},
+    { "script_id": "MAA",
+     "name": "明日方舟",
+     "launch_time": "06:30",
+     "duration": "01:00",
+     "adb" : "模拟器serial" },
+    { "script_id": "BetterGI",
+     "name": "原神",
+     "launch_time": "06:30",
+     "duration": "time_limit",
+     "adb" : "模拟器serial" },
+    { "script_id": "MAA_END",
+     "name": "明日方舟-终末地",
+     "launch_time": "06:30",
+     "duration": "time_limit",
+     "adb" : "模拟器serial",
+     "game_location": "game_location" },
+    { "script_id": "MAA_NTE",
+    "name": "异环",
+    "launch_time": "06:30",
+    "duration": "time_limit",
+    "adb" : "模拟器serial" }
+    ]
+}

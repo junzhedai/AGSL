@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+
+.eslintcache
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Vitest
+__screenshots__/
+
+# Vite
+*.timestamp-*-*.mjs
+
+# ============================================================
+# AGSL 本地生成 / 敏感文件
+# ============================================================
+# 0 字节空文件（垃圾）
+/AGSL
+# 删不掉的空 stub 备份
+/.stubs_backup/
+# 后端运行时数据（program 路径、任务状态、含本地路径敏感）
+/scheduled-tasks-backend/data/
+# 后端错误日志（*.log 已被上面覆盖，但 .err 没覆盖）
+*.err
+# 启动脚本写入的 PID 列表（临时）
+/.agsl-pids.json
